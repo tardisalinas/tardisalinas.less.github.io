@@ -1,0 +1,712 @@
+.header{
+    display: block;
+    width: 100%;
+    height: 768px;
+    background-image: url(../images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.burger{
+    display: none;
+}
+.collapse, .navbar{
+    display: none;
+}
+.menu{
+    width: 1109px;
+    height: 29px;
+    margin-top: 93px;
+    margin-left: 11.45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+a:hover {
+    color: #333333;
+}
+.header-logo{
+    width: 116px;
+    height: 29px;
+}
+.logo-link{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* margin-top: 93px;
+    margin-left: 163px; */
+}
+.header-menu{
+    width: 529px;
+    height: 22px;
+}
+.menu-link{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.texts{
+    width: 694px;
+    height: 261px;
+    margin-top: 145px;
+    margin-left: 11.45%;
+    display: flex;
+    flex-direction: column;
+
+}
+.name{
+    width: 694px;
+    height: 78px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.designer{
+    width: 333px;
+    height: 29px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 26px;
+}
+.latest-work{
+    width: 110px;
+    height: 22px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    margin-top: 106px;
+}
+.latest-work a{
+    color: #FFFFFF;
+}
+
+
+
+.about-text{
+    width: 100%;
+    /* height: 544px; */
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    width: 73px;
+    height: 29px;
+    margin-top: 93px;
+    margin-left: 11.45%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.lorem{
+    width: 75%;
+    margin-top: 76px;
+    margin-left: 11.45%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    color: #333333;
+}
+
+
+
+.skills-block{
+    width: 100%;
+    /* height: 693px; */
+    background-color: #FFFAF2;
+    display: flex;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+    /* height: 340px; */
+    margin-top: 86px;
+    margin-left: 11.45%;
+}
+.profile-picture{
+    width: 350px;
+    height: 340px;
+    
+}
+.skillset{
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+}
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tool{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+.profile-margin{
+    margin-bottom: 65px;
+}
+.names{
+    width: 30%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.descript{
+    width: 70%;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #333333;
+}
+.progress {
+    display: flex;
+    height: 24px;
+    width: 70%;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #F5D6AB;
+    border-radius: 0;
+}
+.progress-bar{
+    background-color: #C66C49;
+}
+.portfolio-block{
+    width: 100%;
+    /* height: 822px; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.research{
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.45%;
+    margin-right: 11.45%;
+    margin-top: 86px;
+    width: 75%;
+    
+    justify-content: space-between;
+    margin-bottom: 145px;
+    
+}
+.ux-research{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+.ux-text{
+    margin-top: 48px;
+    width: 100%;
+    margin-left: 0;
+}
+.arrows{
+    width: 64px;
+    height: 24px;
+    margin-top: 235px;
+    margin-left: 23px;
+}
+.portfolio-images{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 11.45%; */
+    margin-top: 66px;
+    /* width: 44%;
+    height: 635px; */
+    justify-content: space-between;
+}
+.img-left, .img-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 403px;
+}
+.img-left{
+    width: 55%;
+}
+.img-right{
+    width: 40%;
+}
+/* .img-1{
+    width: 350px;
+    height: 144px;
+}
+.img-2{
+    width: 233px;
+    height: 349px;
+}
+.img-3{
+    width: 255px;
+    height: 233px;
+}
+.img-4{
+    width: 255px;
+    height: 144px;
+} */
+/* .footer{
+    width: 100%;
+    height: 528px;
+    background: #FFFAF2
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.title-footer{
+    width: 143px;
+}
+.row{
+    margin-top: 51px;
+    margin-left: 11.45%;
+} */
+.footer{
+    display: grid;
+    grid-template-columns: 11.43% 26.4% 26.4% auto;
+    grid-template-rows: 173px 166px 189px;
+    height: 528px;
+    background: #FFFAF2
+}
+.footer-margin{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.Getin{
+    grid-column: 2;
+    grid-row: 1;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 93px;
+}
+.footer-left{
+    grid-column: 2;
+    
+    
+}
+.footer-middle{
+    grid-column: 3;
+    
+}
+.footer-right{
+    grid-column: 4;
+    
+}
+.chevron{
+    grid-column: 4;
+    grid-row: 3;
+    place-self: end end;
+    
+}
+.chevron img{
+    display: block;
+    margin-right: 180px;
+    margin-bottom: 70px;
+    width: 24px;
+        
+}
+.footer-left, .footer-right, .footer-middle{
+    grid-row: 2;
+    place-items: start stretch;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333; 
+}
+
+
+
+@media screen and (max-width: 375px){
+.header{
+        display: block;
+        width: 375px;
+        height: 275px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+.flexy{
+        width: 100%;
+        height: 29px;
+       
+    }
+.menu{
+        width: 100%;
+        height: 29px;
+        margin-top: 0;
+        margin-left: 34px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+ /* --------------burger---------    */
+.burger{
+    display: block;
+    overflow: hidden;
+    /* position: absolute;
+    left: 34px;
+    top: 39px; */
+    width: 95px;
+} 
+.burger_icon{
+    display: block;
+    width: 24px;
+} 
+.burger-menu{
+    display: none;
+    position: absolute;
+    left: 32px;
+    top: 14px;
+    
+    
+}
+.menu-link {
+    float: none;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 350px;      
+    z-index: 5;
+    margin-right: 22px;
+}
+
+.burger:hover .burger-menu {
+    display: block;
+    overflow: visible;
+}
+.header-logo{
+    width: 116px;
+    height: 29px;
+    
+}
+.texts{
+    width: 217px;
+    height: 110px;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    width: 217px;
+    height: 24px;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.designer{
+    width: 181px;
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 13px;
+}
+.latest-work{
+    width: 79px;
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 41px;
+}
+.collapse, .header-menu, .navbar{
+    display:none;
+}
+/* about bootstrap navbar
+
+ .text-muted{
+    position: absolute;
+    top:5px;
+} */
+
+/* .about-text{
+    height: 335px;    
+} */
+.title{
+    width: 72px;
+    height: 29px;
+    margin-top: 25px;
+    margin-left: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+.lorem{
+    width: 83%;
+    margin-top: 19px;
+    margin-left: 34px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #333333;
+}
+
+
+
+
+
+.skills-block{
+    width: 100%;
+    /* height: 617px; */
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    width: 100%;    
+    margin-top: 0;
+    margin-left: 0;
+}
+.profile-picture{
+    width: 224px;
+    height: 218px;
+    margin-top: 25px;
+    
+}
+.profpic{
+    width: 224px;
+    height: 218px;
+}
+.skillset{
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 26px;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+.tool{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.profile-margin{
+    margin-bottom: 31px;
+}
+.names{
+    width: 31%;
+    font-size: 12px;
+    
+}
+.descript{
+    width: 70%;
+    font-size: 12px;
+    line-height: 25px;
+}
+.progress {
+    display: flex;
+    height: 18px;
+    width: 70%;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #F5D6AB;
+    border-radius: 0;
+}
+.skills{
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* ---------------portfolio */
+.portfolio-block{
+    align-items: center;
+    
+}
+.title-port{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    margin-top: 25px;
+    margin-left: -35px;
+}
+.research{
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 19px;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ux-research{
+    width: 90%;
+    align-items: center;
+    
+}
+.ux-text{
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+}
+.arrows{
+    display: none;
+}
+.portfolio-images{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 11.45%; */
+    margin-top:15px;
+    
+    justify-content: space-between;
+}
+.img-left, .img-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 196px;
+}
+.img-left{
+    width: 55%;
+}
+.img-right{
+    width: 40%;
+}
+.img-1{
+    width: 169.7px;
+    height: 69px;
+}
+.img-2{
+    width: 169.7px;
+    height: 113px;
+}
+.img-3{
+    width: 123.7px;
+    height: 113px;
+}
+.img-4{
+    width: 123.7px;
+    height: 69px;
+}
+
+
+
+.footer{
+    display: grid;
+    grid-template-columns: 7.2% 42.8% 42.8% 7.2%;
+    grid-template-rows: 80px 161px 119px;
+    /* height: 528px; */
+    background: #FFFAF2
+}
+.footer-margin{
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+.Getin{
+    grid-column: 2/4;
+    grid-row: 1;    
+    font-weight: 600;
+    margin-top: 25px;
+    justify-self: center;
+}
+.footer-left{
+    grid-column: 2;    
+    
+}
+.footer-middle{
+    grid-column: 3;
+    
+}
+.chevron{
+    grid-column: 3;
+    grid-row: 3;
+    place-self: center end;
+    
+}
+.chevron img{
+    display: block;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 24px;
+        
+}
+.footer-left, .footer-middle{
+    grid-row: 2;
+    place-items: start stretch;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer-right{
+    grid-row: 3;
+    grid-column: 2;
+    place-self: center start;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+}
